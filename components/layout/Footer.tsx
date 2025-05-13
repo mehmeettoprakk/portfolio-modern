@@ -44,7 +44,7 @@ export const Footer = () => {
     });
   };
 
-  const cv_file_url = "/pdf/Mehmet_Toprak_CV.pdf";
+  const cv_file_url = "/pdf/Mehmet_Toprak_Resume.pdf";
 
   const downloadFile = (url: string) => {
     const fileName = url.split("/").pop();
