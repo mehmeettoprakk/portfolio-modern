@@ -55,7 +55,7 @@ export const Welcome = () => {
         <Link to="contact" spy={true} smooth={true} offset={0} duration={500}>
           <button
             type="button"
-            className="w-full my-4 py-3 px-6 rounded-md font-semibold border border-transparent bg-gradient-to-r from-blue-500 to-purple-500 hover:from-purple-500 hover:to-blue-500 hover:shadow-lg transition-all duration-300">
+            className="w-full my-4 py-3 px-6 rounded-md font-semibold border border-borderColor bg-black hover:bg-gradient-to-r hover:from-orange-400 hover:to-red-500 hover:shadow-lg transition-all duration-300">
             <span className="text-white">Get In Touch</span>
           </button>
         </Link>
