@@ -4,6 +4,7 @@ import { Welcome } from "@/components/home/Welcome";
 import { Status } from "@/components/home/Status";
 import { Info } from "@/components/about/Info";
 import Image from "next/image";
+import { Skills } from "@/components/about/Skills";
 
 export default function Home() {
   return (
@@ -31,6 +32,7 @@ export default function Home() {
             />
           </div>
         </div>
+        <Skills />
       </section>
     </main>
   );
