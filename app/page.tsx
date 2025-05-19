@@ -5,6 +5,9 @@ import { Status } from "@/components/home/Status";
 import { Info } from "@/components/about/Info";
 import Image from "next/image";
 import { Skills } from "@/components/about/Skills";
+import { Journey } from "@/components/experience/Journey";
+import { Certificate } from "@/components/experience/Certificate";
+import { ProjectLists } from "@/components/projects/ProjectLists";
 
 export default function Home() {
   return (
@@ -33,6 +36,17 @@ export default function Home() {
           </div>
         </div>
         <Skills />
+      </section>
+      <section id="experience" className="pb-16 pt-32 lg:pb-28">
+        <div className="flex flex-col lg:flex-row">
+          <div className="w-full self-center md:px-4 lg:w-2/3 text-justify">
+            <Journey />
+          </div>
+        </div>
+        <Certificate />
+      </section>
+      <section id="projects" className="pb-16 pt-32 lg:pb-28">
+        <ProjectLists />
       </section>
     </main>
   );
